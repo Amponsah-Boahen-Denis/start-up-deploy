@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .up{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),blue;
+        color: white;
+        width: 100%;  
+    h1{
+font-size:25px;
+        position: relative;
+        margin: 20px;
+        font-family: sans-serif;
+    }
+    .link{
+        display:flex;
+        flex-wrap: wrap;
+        margin-top:10px;
+        margin-bottom: 3px;
+        flex-flow: start;
+        *{  
+        text-decoration: none;
+        color: white;
+        width: 140px;
+        height: 15px;
+        margin-bottom: 5px;
+    
+        
+        }
+    }
+   .img{
+       z-index: 2;
+       height: 90px;
+       width: 100%;
+       animation-name: anim;
+       animation-duration: 30s;
+       animation-delay: 2s;
+       animation-iteration-count: infinite;
+       @keyframes anim {
+        0%{ background:url(./weave.jpg);background-position: center;background-size: cover;}
+        25%{ background:url(./motor.png);background-position: center;background-color: white;}
+        50%{ background:url(./hire.png);background-position: center;background-color: white;}
+        75%{ background:url(./motor.png);background-position: center;background-color: white;}
+        100%{ background:url(./weave.jpg);background-position: center;}  
+       }
+   } 
+   
+    }
+    
+}

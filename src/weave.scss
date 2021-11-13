@@ -1,0 +1,101 @@
+.weav{
+    width: 100%;
+    h1{
+        color: gold;
+        margin: 20px;
+    }
+    .wev{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        flex-direction: column;
+        background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+        url(./weave.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat:no-repeat;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        color: white;
+        min-height: 60vh;
+        max-height:auto;
+    }
+   h2{
+    max-width: 700px;
+       font-size:20px;
+   } 
+   .below{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       flex-wrap: wrap;
+       max-width: 700px;
+       div{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        #ul2{
+            margin-left:20px; 
+            margin-top: 10px;
+            b{
+                color: gold;
+            }
+            p{
+                width: 50vh;
+                font-size: 18px;
+               
+            }
+        }
+        #ul1{
+            margin-right:40px;   
+            b{
+                color: gold;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+       }
+       h3{
+           margin: 10px;
+           font-size: 23px;
+       }
+
+}
+   
+   .im5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),white;
+    width: 100%;
+    .examp5{
+    
+     width: 70%;
+       margin: 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+        grid-row:repeat(3,1fr);
+        grid-gap: 10px;
+        img{
+height: 200px;
+width: 70%;
+border: 1px solid black;
+border-radius: 10px;
+margin: 10px;
+background-color:white;
+box-shadow:30px solid black;
+align-self: center;
+&:hover{
+    transform: translateY(7px);
+    
+}
+        }
+    }
+}
+}

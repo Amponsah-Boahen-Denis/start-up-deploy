@@ -1,0 +1,78 @@
+.five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: seagreen;
+}
+.five p {
+  max-width: 700px;
+  min-width: auto;
+  font-size: 20px;
+}
+.five .barber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.five .barber b {
+  color: blue;
+}
+.five .barber #bp {
+  max-width: 60vh;
+  min-width: auto;
+  margin-left: 80px;
+}
+.five .barber #bp p {
+  margin-top: 0;
+}
+.five .im5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), white;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), white;
+  width: 100%;
+}
+.five .im5 .examp5 {
+  width: 70%;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-row: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.five .im5 .examp5 img {
+  height: 200px;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+  -webkit-box-shadow: black;
+          box-shadow: black;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.five .im5 .examp5 img:hover {
+  -webkit-transform: translateY(7px);
+          transform: translateY(7px);
+}/*# sourceMappingURL=barbering.css.map */
