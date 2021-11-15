@@ -40,18 +40,18 @@ function Three() {
             <div className='im5'>
 <div className='examp5'>
     
-    <img src='/fotos/weav1.png' alt="" />
-    <img src="/fotos/weav2.png" alt="" />
-    <img src="/fotos/weav3.png" alt="" />
-    <img src="/fotos/weav4.png" alt="" />
-    <img src="/fotos/weav5.png" alt="" />
-    <img src="/fotos/weav6.png" alt="" />
-    <img src="/fotos/weav7.png" alt="" />
-    <img src="/fotos/weav8.png" alt="" />
-    <img src="/fotos/weav9.png" alt="" />
-    <img src="/fotos/weav10.png" alt="" />
-    <img src="/fotos/weav11.png" alt="" />
-    <img src="/fotos/weav12.png" alt="" />
+<img src={require('./fotos/weav1.png').default} alt="" />
+    <img src={require('./fotos/weav2.png').default} alt="" />
+    <img src={require('./fotos/weav3.png').default} alt="" />
+    <img src={require('./fotos/weav4.png').default} alt="" />
+    <img src={require('./fotos/weav5.png').default} alt="" />
+    <img src={require('./fotos/weav6.png').default} alt="" />
+    <img src={require('./fotos/weav7.png').default} alt="" />
+    <img src={require('./fotos/weav8.png').default} alt="" />
+    <img src={require('./fotos/weav9.png').default} alt="" />
+    <img src={require('./fotos/weav10.png').default} alt="" />
+    <img src={require('./fotos/weav11.png').default} alt="" />
+    <img src={require('./fotos/weav12.png').default} alt="" />
 </div>
 </div>
         </div>

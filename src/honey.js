@@ -39,18 +39,18 @@ function Honey() {
            <div className='im4'>
 <div className='examp4'>
     
-    <img src='/fotos/honey1.png' alt="" />
-    <img src="/fotos/honey2.png" alt="" />
-    <img src="/fotos/honey3.png" alt="" />
-    <img src="/fotos/honey4.png" alt="" />
-    <img src="/fotos/honey5.png" alt="" />
-    <img src="/fotos/honey6.png" alt="" />
-    <img src="/fotos/honey7.png" alt="" />
-    <img src="/fotos/honey8.png" alt="" />
-    <img src="/fotos/honey9.png" alt="" />
-    <img src="/fotos/honey10.png" alt="" />
-    <img src="/fotos/honey11.png" alt="" />
-    <img src="/fotos/honey12.png" alt="" />
+    <img src={require('./fotos/honey1.png').default} alt="" />
+    <img src={require('./fotos/honey2.png').default} alt="" />
+    <img src={require('./fotos/honey3.png').default} alt="" />
+    <img src={require('./fotos/honey4.png').default} alt="" />
+    <img src={require('./fotos/honey5.png').default} alt="" />
+    <img src={require('./fotos/honey6.png').default} alt="" />
+    <img src={require('./fotos/honey7.png').default} alt="" />
+    <img src={require('./fotos/honey8.png').default} alt="" />
+    <img src={require('./fotos/honey9.png').default} alt="" />
+    <img src={require('./fotos/honey10.png').default} alt="" />
+    <img src={require('./fotos/honey11.png').default} alt="" />
+    <img src={require('./fotos/honey12.png').default} alt="" />
 </div>
 </div>
 </div>

@@ -33,18 +33,18 @@ any time they are in need of some.
             <div className='im1'>
 <div className='examp2'>
     
-    <img src='/fotos/motor1.png' alt="" />
-    <img src="/fotos/motor2.png" alt="" />
-    <img src="/fotos/motor3.png" alt="" />
-    <img src="/fotos/motor4.png" alt="" />
-    <img src="/fotos/motor5.png" alt="" />
-    <img src="/fotos/motor6.png" alt="" />
-    <img src="/fotos/motor7.png" alt="" />
-    <img src="/fotos/motor8.png" alt="" />
-    <img src="/fotos/motor9.png" alt="" />
-    <img src="/fotos/motor10.png" alt="" />
-    <img src="/fotos/motor11.png" alt="" />
-    <img src="/fotos/motor12.png" alt="" />
+<img src={require('./fotos/motor1.png').default} alt="" />
+    <img src={require('./fotos/motor2.png').default} alt="" />
+    <img src={require('./fotos/motor3.png').default} alt="" />
+    <img src={require('./fotos/motor4.png').default} alt="" />
+    <img src={require('./fotos/motor5.png').default} alt="" />
+    <img src={require('./fotos/motor6.png').default} alt="" />
+    <img src={require('./fotos/motor7.png').default} alt="" />
+    <img src={require('./fotos/motor8.png').default} alt="" />
+    <img src={require('./fotos/motor9.png').default} alt="" />
+    <img src={require('./fotos/motor10.png').default} alt="" />
+    <img src={require('./fotos/motor11.png').default} alt="" />
+    <img src={require('./fotos/motor12.png').default} alt="" />
 </div>
 </div>
             </div>

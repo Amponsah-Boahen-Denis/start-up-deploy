@@ -35,15 +35,15 @@ function Barber() {
            <div className='im5'>
 <div className='examp5'>
     
-    <img src='/fotos/barber1.png' alt="" />
-    <img src="/fotos/barber2.png" alt="" />
-    <img src="/fotos/barber3.png" alt="" />
-    <img src="/fotos/barber4.png" alt="" />
-    <img src="/fotos/barber5.png" alt="" />
-    <img src="/fotos/barber6.png" alt="" />
-    <img src="/fotos/barber7.png" alt="" />
-    <img src="/fotos/barber8.png" alt="" />
-    <img src="/fotos/barber9.png" alt="" />
+    <img src={require('./fotos/barber1.png').default} alt="" />
+    <img src={require('./fotos/barber2.png').default} alt="" />
+    <img src={require('./fotos/barber3.png').default} alt="" />
+    <img src={require('./fotos/barber5.png').default} alt="" />
+    <img src={require('./fotos/barber6.png').default} alt="" />
+    <img src={require('./fotos/barber7.png').default} alt="" />
+    <img src={require('./fotos/barber8.png').default} alt="" />
+    <img src={require('./fotos/barber9.png').default} alt="" />
+    <img src={require('./fotos/barber4.png').default} alt="" />
     
 </div>
 </div>

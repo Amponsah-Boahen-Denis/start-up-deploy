@@ -37,18 +37,18 @@ function Hire() {
 <div className='im'>
 <div className='examp'>
     
-    <img src='/fotos/hire1.png' alt="lgtmhotjholpeh" />
-    <img src="/fotos/hire2.png" alt="" />
-    <img src="/fotos/hire3.png" alt="" />
-    <img src="/fotos/hire4.png" alt="" />
-    <img src="/fotos/hire5.png" alt="" />
-    <img src="/fotos/hire6.png" alt="" />
-    <img src="/fotos/hire7.png" alt="" />
-    <img src="/fotos/hire8.png" alt="" />
-    <img src="/fotos/hire9.png" alt="" />
-    <img src="/fotos/hire10.png" alt="" />
-    <img src="/fotos/hire11.png" alt="" />
-    <img src="/fotos/hire12.png" alt="" />
+    <img src={require('./fotos/hire1.png').default} alt="" />
+    <img src={require('./fotos/hire2.png').default} alt="" />
+    <img src={require('./fotos/hire3.png').default} alt="" />
+    <img src={require('./fotos/hire4.png').default} alt="" />
+    <img src={require('./fotos/hire5.png').default} alt="" />
+    <img src={require('./fotos/hire6.png').default} alt="" />
+    <img src={require('./fotos/hire7.png').default} alt="" />
+    <img src={require('./fotos/hire8.png').default} alt="" />
+    <img src={require('./fotos/hire9.png').default} alt="" />
+    <img src={require('./fotos/hire10.png').default} alt="" />
+    <img src={require('./fotos/hire11.png').default} alt="" />
+    <img src={require('./fotos/hire12.png').default} alt="" />
 </div>
 </div>
         
