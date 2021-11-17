@@ -6,7 +6,7 @@ function Honey() {
             <div className='hon'>
             <h1>HONEY MAKING</h1>
            <p id='pp'>Honey business is just a simple business by making boxes of wood 
-               and inside it is a sugar, and placing it on trees or any place that
+               and inside it is a sugar, and placing them on trees or any place that
                can attract bees for them to come and make honey in it.
                When the box is full you go and harvest it in gentle way to avoid beating 
                by the bees.

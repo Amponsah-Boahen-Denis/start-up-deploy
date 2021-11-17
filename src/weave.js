@@ -1,6 +1,6 @@
 import React from 'react'
 import './weave.scss';
-function Three() {
+function Weave() {
     return (
         <div className='weav'>
             <div className='wev'>
@@ -23,9 +23,9 @@ function Three() {
                <ul id='ul2'>
                    <b>How to advertise</b>
                <p>
-                  You can advertise them by sending it to market placeor
-                  by going to people ceremony and puting them at front 
-                  of entrance to atract people for sales.
+                  You can advertise them by sending them to market place or
+                  by going to people's ceremony and puting them at the 
+                   entrance of the ceremony to atract people for sales.
               </p>
                </ul>
                
@@ -58,4 +58,4 @@ function Three() {
     )
 }
 
-export default Three;
+export default Weave;

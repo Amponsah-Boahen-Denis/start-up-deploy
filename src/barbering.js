@@ -5,7 +5,7 @@ function Barber() {
         <div className='barber'>
             <div className='bar'>
             <h1>BARBERING(HAIR CUT)</h1>
-           <p>Barbering is any business set up some where weather on 
+           <p>Barbering is any business set up some where whether on 
                the road side or any place that people actually pass so that they would
                come and have their hair cut when it is bushy.Barbering is a very nice business for you if you only know how to
                cut hair.

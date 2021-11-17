@@ -1,6 +1,6 @@
 import React from 'react'
 import './motor.scss'
-function One() {
+function Motor() {
     return (
         <div className='motor'>
             <div className='item'>
@@ -53,4 +53,4 @@ any time they are in need of some.
     )
 }
 
-export default One;
+export default Motor;
