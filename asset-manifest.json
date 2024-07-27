@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/start-up-deploy/static/css/main.45b8bfda.css",
-    "main.js": "/start-up-deploy/static/js/main.bdb677f9.js",
+    "main.css": "/start-up-deploy/static/css/main.31a36297.css",
+    "main.js": "/start-up-deploy/static/js/main.ab165121.js",
     "static/media/barber1.png": "/start-up-deploy/static/media/barber1.28c2c5eae57dd6db9c9d.png",
     "static/media/weav9.png": "/start-up-deploy/static/media/weav9.fce985bbf5b304c066fc.png",
     "static/media/honey11.png": "/start-up-deploy/static/media/honey11.68a6b0251bd81c58f676.png",
@@ -66,11 +66,11 @@
     "static/media/hire9.png": "/start-up-deploy/static/media/hire9.f4cce9bcf5b087ed01b3.png",
     "static/media/barber7.png": "/start-up-deploy/static/media/barber7.dbf16d4b9122bfb8361f.png",
     "index.html": "/start-up-deploy/index.html",
-    "main.45b8bfda.css.map": "/start-up-deploy/static/css/main.45b8bfda.css.map",
-    "main.bdb677f9.js.map": "/start-up-deploy/static/js/main.bdb677f9.js.map"
+    "main.31a36297.css.map": "/start-up-deploy/static/css/main.31a36297.css.map",
+    "main.ab165121.js.map": "/start-up-deploy/static/js/main.ab165121.js.map"
   },
   "entrypoints": [
-    "static/css/main.45b8bfda.css",
-    "static/js/main.bdb677f9.js"
+    "static/css/main.31a36297.css",
+    "static/js/main.ab165121.js"
   ]
 }
